@@ -1,1 +1,1 @@
-# jsdelivr
+# LORDEX.LOL SCRİPTS
