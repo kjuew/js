@@ -4,7 +4,7 @@ setInterval(() => {
     // Sayısal kısmı izole et ve sadece onu değiştir
     const textNode = element.lastChild; // Son çocuk öğesi, burada "0"
     if (textNode && textNode.nodeType === 3) {  // Text node olup olmadığını kontrol et
-      textNode.textContent = "1,965";  // Sayıyı 1 ile değiştir
+      textNode.textContent = "1,965";  // Sayıyı 1,965 ile değiştir
     }
   }
-}, 0); // Her 1000 milisaniyede (1 saniyede) bir çalışır
+}, 100); // Her 100 milisaniyede bir çalışır
